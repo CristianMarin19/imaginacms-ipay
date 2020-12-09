@@ -2,7 +2,7 @@
 
 namespace Modules\Ipay\Entities;
 
-use Dimsav\Translatable\Translatable;
+use Astrotomic\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Bcrud\Support\Traits\CrudTrait;
 use Modules\Ipay\Entities\Category;

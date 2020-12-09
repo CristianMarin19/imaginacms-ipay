@@ -4,7 +4,7 @@
     "description": "Boton de pago Payu",
     "keywords": [],
     "active": 1,
-    "order": 1,
+    "priority": 1,
     "providers": [
         "Modules\\Ipay\\Providers\\IpayServiceProvider",
         "Modules\\Ipay\\Providers\\RouteServiceProvider"
