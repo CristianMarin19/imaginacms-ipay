@@ -4,13 +4,11 @@ namespace Modules\Ipay\Entities;
 
 use Astrotomic\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model;
-use Modules\Bcrud\Support\Traits\CrudTrait;
 use Modules\Ipay\Entities\Category;
 use Modules\Ipay\Entities\Feature;
 
 class Config extends Model
 {
-    use CrudTrait;
 
     protected $table = 'ipay__config';
 
